@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name":"Checkn Peri Peri Marinated 1 KG",
+        "price": 100,
+        "image": "image/1.png"
+    },
+    {
+        "id": 2,
+        "name":"Peri Boti Marinated 1 KGR",
+        "price": 250,
+        "image": "image/2.png"
+    },
+    {
+        "id": 3,
+        "name":"Quarter Chicken (Leg)  1 KG",
+        "price": 290,
+        "image": "image/3.png"
+    },
+    {
+        "id": 4,
+        "name":"Peri Peri Chicken",
+        "price": 200,
+        "image": "image/4.png"
+    },
+    {
+        "id": 5,
+        "name":" Burger double petti",
+        "price": 300,
+        "image": "image/5.png"
+    },
+    {
+        "id": 6,
+        "name":"Chicken Burger juicy",
+        "price": 200,
+        "image": "image/6.png"
+    },
+    {
+        "id": 7,
+        "name":"Grillo Special Burger",
+        "price": 200,
+        "image": "image/7.png"
+    },
+    {
+        "id": 8,
+        "name":"Special Roll Mutton",
+        "price": 200,
+        "image": "image/8.png"
+    }
+    ,
+    {
+        "id": 9,
+        "name":"Chicken Grilled Roll",
+        "price": 200,
+        "image": "image/8.png"
+    }
+    ,
+    {
+        "id": 10,
+        "name":"Beef Roll with wraper",
+        "price": 200,
+        "image": "image/8.png"
+    }
+
+]

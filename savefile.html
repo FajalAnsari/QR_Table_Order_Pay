@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Save Text to File</title>
+</head>
+<body>
+    <label>Enter your path:</label>
+    <input type="text" id="pathInput" placeholder="Enter your path"><br><br>
+    
+    <label>Enter the text:</label>
+    <textarea id="textInput" placeholder="Enter the text"></textarea><br><br>
+    
+    <button onclick="saveToFile()">Save</button>
+
+    <script>
+        function saveToFile() {
+            var path = document.getElementById("pathInput").value;
+            var text = document.getElementById("textInput").value;
+            var data = new Blob([text], {type: 'text/plain'});
+
+            var a = document.createElement("a");
+            a.href = URL.createObjectURL(data);
+            a.download = path;
+            a.click();
+        }
+    </script>
+</body>
+</html>
